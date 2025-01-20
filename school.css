@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-text {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.deep-sky{
+    color: #01ACFD;
+}
+.light-sky{
+    color: #05D4DF;
+}
+.grayy{
+    color: 495560;
+}
+.light-pink{
+   color: #5D58EF;
+}
+.new-pink{
+    color: #68A2DF;
+}
+.orange-clr{
+   color:#FEA301;
+}
