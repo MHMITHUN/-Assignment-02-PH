@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    .nav-menu {
+        display: none;
+    }
+    .logo h1 {
+        display: none;
+    }
+    .logo img {
+        padding-bottom: 15px;
+        padding-left: 10px;
+    }
+    .contact-btn {
+        display: none;
+    }
+    .icon-hbg {
+        display:block;
+        padding-right: 20px;
+        padding-bottom: 10px;
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .nav-menu {
+        display: none;
+    }
+}

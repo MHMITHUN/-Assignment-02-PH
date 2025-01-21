@@ -22,7 +22,7 @@
 }
 
 .grayy {
-    color: 495560;
+    color: #495560;
 }
 
 .light-pink {
@@ -40,6 +40,9 @@
 .navbar {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 15px;
+    /* border: 1px solid red; */
 }
 
 .logo {
@@ -64,8 +67,20 @@
     text-decoration: none;
 }
 
-.nav-menu>a:hover {
+.nav-menu>a.home-btn:hover {
     color: #01ACFD;
+}
+
+.nav-menu>a.about-btn:hover {
+    color: #15352b;
+}
+
+.nav-menu>a.facilities-btn:hover {
+    color: #24de4d;
+}
+
+.nav-menu>a.admission-btn:hover {
+    color: #d860c4;
 }
 
 .contact-btn {
@@ -75,7 +90,7 @@
 }
 
 .contact-btn button {
-    padding: 10px 20px;
+    padding: 10px 50px;
     border-radius: 12px;
     background-color: orange;
     color: white;
@@ -88,4 +103,8 @@
 .contact-btn button:hover {
     background-color: #01ACFD;
     color: white;
+}
+
+.icon-hbg {
+    display: none;
 }
