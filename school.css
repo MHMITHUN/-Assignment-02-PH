@@ -108,3 +108,24 @@
 .icon-hbg {
     display: none;
 }
+
+main{
+    width: 86%;
+    margin: 0 auto;
+}
+/* ...........Hero sec............ */
+.black-btn{
+    padding: 10px 50px;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+.hero-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
