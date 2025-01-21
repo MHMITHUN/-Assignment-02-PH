@@ -65,8 +65,8 @@
 
 .nav-menu>a {
     text-decoration: none;
+    font-weight: 500;
 }
-
 .nav-menu>a.home-btn:hover {
     color: #01ACFD;
 }
