@@ -5,29 +5,87 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-*{
+}
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-
-.deep-sky{
+.deep-sky {
     color: #01ACFD;
 }
-.light-sky{
+
+.light-sky {
     color: #05D4DF;
 }
-.grayy{
+
+.grayy {
     color: 495560;
 }
-.light-pink{
-   color: #5D58EF;
+
+.light-pink {
+    color: #5D58EF;
 }
-.new-pink{
+
+.new-pink {
     color: #68A2DF;
 }
-.orange-clr{
-   color:#FEA301;
+
+.orange-clr {
+    color: #FEA301;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo>h1 {
+    font-weight: 43.75rem;
+    font-size: 2rem;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    /* margin-left: 20px; */
+}
+
+.nav-menu>a {
+    text-decoration: none;
+}
+
+.nav-menu>a:hover {
+    color: #01ACFD;
+}
+
+.contact-btn {
+    display: flex;
+    align-items: center;
+    /* margin-left:100px; */
+}
+
+.contact-btn button {
+    padding: 10px 20px;
+    border-radius: 12px;
+    background-color: orange;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-btn button:hover {
+    background-color: #01ACFD;
+    color: white;
 }
