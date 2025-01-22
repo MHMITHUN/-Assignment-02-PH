@@ -231,6 +231,7 @@
     color: #666;
     line-height: 1.6;
     margin-bottom: 20px;
+    text-align: justify;
 }
 
 .read-more {
@@ -380,6 +381,7 @@
     color: #666;
     margin: 0 auto;
     line-height: 1.6;
+    text-align: justify;
 }
 
 .our-stories-grid {
@@ -455,4 +457,122 @@
     padding: 0 15px;
 }
 
-/* ... footer sec... */
+/* Footer Section */
+footer {
+    background-color: #01ACFD;
+    padding: 50px 0;
+    margin-top: 0;
+}
+
+.footer-container {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section.kids-education {
+    flex: 2;
+}
+
+.footer-logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.footer-logo h2 {
+    color: white;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin-top: 25px;
+
+}
+
+.footer-section.kids-education p {
+    color: white;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.footer-section h2 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.footer-para {
+    color: white;
+    line-height: 1.6;
+    opacity: 0.9;
+    text-align: justify;
+}
+
+.footer-section ul {
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 15px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    transition: opacity 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+    opacity: 0.8;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-link:hover {
+    transform: translateY(-3px);
+}
+
+.social-link.facebook {
+    background-color: #3b5998;
+}
+
+.social-link.dribbble {
+    background-color: #ea4c89;
+}
+
+.social-link.twitter {
+    background-color: #1da1f2;
+}
+
+.social-link.google {
+    background-color: #db4437;
+}
