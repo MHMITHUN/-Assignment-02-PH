@@ -15,6 +15,9 @@
         font-size: 2rem;
         margin-bottom: 30px;
     }
+    .hero-heading {
+        font-size: 2.2rem;
+    }
 }
 
 @media (max-width: 790px) {
@@ -35,10 +38,8 @@
         border-bottom: 0.5px solid rgb(254, 163, 1);
     }
     .hero-section {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        width: 92%;
+        gap: 1.5rem;
     }
     .hero-text {
         text-align: center;
@@ -51,6 +52,9 @@
     }
     .flx-grid-container {
         padding: 0 15px;
+    }
+    .hero-heading {
+        font-size: 2rem;
     }
 }
 
@@ -71,13 +75,12 @@
 
 @media (max-width: 576px) {
     .hero-section {
-        display: flex;
         flex-direction: column-reverse;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        padding: 1rem;
     }
     .hero-img img {
-        width: 20rem;
+        max-width: 20rem;
     }
     .curriculum-heading {
         font-size: 1.75rem;
@@ -99,6 +102,9 @@
         padding: 8px 25px;
         font-size: 0.9rem;
     }
+    .hero-heading {
+        font-size: 1.8rem;
+    }
 }
 
 @media (max-width: 340px) {
@@ -108,11 +114,10 @@
         margin: 0 auto;
     }
     .hero-img img {
-        width: 10rem;
+        max-width: 15rem;
     }
     .hero-heading {
-        text-align: center;
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
     .curriculum-section {
         width: 95%;
@@ -123,5 +128,11 @@
     .nav-arrow {
         width: 35px;
         height: 35px;
+    }
+    .hero-section {
+        gap: 1rem;
+    }
+    .hero-para {
+        font-size: 0.9rem;
     }
 } 

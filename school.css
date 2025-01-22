@@ -114,17 +114,36 @@
     margin: 0 auto;
 } */
 /* ...........Hero sec............ */
-.hero-heading{
+.hero-section {
+    width: 86%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.hero-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.hero-heading {
     font-size: 2.6rem;
     font-weight: 700;
+    line-height: 1.2;
 }
-.hero-para{
-   padding-top: 20px;
+
+.hero-para {
+    padding-top: 20px;
 }
-.hero-section  .hero-btn{
+
+.hero-section .hero-btn {
     margin-top: 20px;
 }
-.black-btn{
+
+.black-btn {
     padding: 10px 50px;
     border-radius: 12px;
     background-color: black;
@@ -134,28 +153,26 @@
     border: none;
     cursor: pointer;
 }
-.hero-section{
-    width: 86%;
-    margin: 0 auto;
+
+.hero-img {
+    flex: 1;
     display: flex;
     justify-content: center;
-    align-items: center;
-    gap: 3rem;
-}
-.hero-img img{
-    width: 30rem;
-    align-items: center;
-    /* border:1px solid red; */
 }
 
-
+.hero-img img {
+    width: 100%;
+    max-width: 30rem;
+    height: auto;
+}
 
 /* .....................Curriculam section............. */
 .curriculum-section {
-    width: 86%;
-    margin: 80px auto;
+    width: 100%;
+    margin: 0 auto;
     text-align: center;
     background-image: url(./assets/bg.png);
+    /* border: 1px solid red; */
 }
 
 .curriculum-heading {
@@ -178,6 +195,19 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     flex: 1;
     max-width: 350px;
+}
+
+/* Add these new styles for the individual cards */
+.curriculum-card:nth-child(1) {
+    background: linear-gradient(to bottom, rgb(222, 245, 255), rgba(255, 255, 255, 0));
+}
+
+.curriculum-card:nth-child(2) {
+    background: linear-gradient(to bottom, rgb(255, 244, 220), rgba(255, 255, 255, 0));
+}
+
+.curriculum-card:nth-child(3) {
+    background: linear-gradient(to bottom, rgb(238, 225, 255), rgba(255, 255, 255, 0));
 }
 
 .card-icon {
@@ -243,10 +273,7 @@
     background: #05D4DF;
 }
 
-
-
 /* ..................our stories................. */
-
 .our-stories-section {
     background: url(./assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
     background-size: cover;
@@ -384,12 +411,8 @@
     transform: translateY(-2px);
 }
 
-
-
 /* 
 ..........................start */
-
-
 .our-stories-flx {
     flex: 1;
     background: white;
