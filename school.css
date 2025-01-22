@@ -50,7 +50,9 @@
     align-items: center;
     gap: 10px;
 }
-
+.logo img {
+    padding-bottom: 10px;
+}
 .logo>h1 {
     font-weight: 43.75rem;
     font-size: 2rem;
@@ -98,11 +100,12 @@
     font-size: 1rem;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .contact-btn button:hover {
-    background-color: #01ACFD;
-    color: white;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(1, 172, 253, 0.3);
 }
 
 .icon-hbg {
@@ -152,6 +155,13 @@
     font-size: 1rem;
     border: none;
     cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.black-btn:hover {
+    transform: translateY(-3px);
+    background-color: #333;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 .hero-img {
@@ -195,6 +205,12 @@
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
     flex: 1;
     max-width: 350px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.curriculum-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Add these new styles for the individual cards */
@@ -241,6 +257,12 @@
     color: white;
     font-weight: 500;
     cursor: pointer;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.read-more:hover {
+    transform: translateY(-3px);
+    opacity: 0.9;
 }
 
 .read-more.blue {
@@ -307,7 +329,15 @@
     border-radius: 20px;
     padding: 0;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
+.our-stories-flx:hover,
+.our-stories-grid > div:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 .our-stories-flx img,
 .our-stories-grid img {
     width: 100%;
@@ -575,4 +605,32 @@ footer {
 
 .social-link.google {
     background-color: #db4437;
+}
+
+.announcement-banner {
+    background: linear-gradient(90deg, #FEA301 0%, #01ACFD 100%);
+    padding: 8px 0;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.announcement-content {
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+.announcement-badge {
+    background: #ff4444;
+    padding: 2px 8px;
+    border-radius: 12px;
+    font-size: 0.8em;
+    margin-right: 10px;
+    animation: pulse 1.5s infinite;
+}
+
+.highlight {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 2px 8px;
+    border-radius: 4px;
+    margin: 0 5px;
 }
