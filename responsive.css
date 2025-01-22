@@ -32,6 +32,41 @@
     .hero-text{
         text-align: center;
     }
+
+
+
+    .curriculum-img{
+        flex-direction: column;
+    }
+
+    .our-stories-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .our-stories-flx{
+        display: none;
+    }
+
+    .flx-grid-container {
+        padding: 0 15px;
+    }
+}
+@media (max-width: 635px) {
+    
+    .flx-grid-container{
+        display: block;
+        align-items: center;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .our-stories h1 {
+        font-size: 2rem;
+    }
+
+    .our-stories-grid > div {
+        text-align: center;
+    }
 }
 
 @media (max-width: 576px) {
@@ -48,6 +83,11 @@
 }
 @media (max-width: 340px) {
     
+    .our-stories-grid{
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        margin: 0 auto;
+    }
         .hero-img img{
             width: 10rem;
         }

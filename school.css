@@ -109,10 +109,10 @@
     display: none;
 }
 
-main{
+/* main{
     width: 86%;
     margin: 0 auto;
-}
+} */
 /* ...........Hero sec............ */
 .hero-heading{
     font-size: 2.6rem;
@@ -135,6 +135,8 @@ main{
     cursor: pointer;
 }
 .hero-section{
+    width: 86%;
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -145,3 +147,222 @@ main{
     align-items: center;
     /* border:1px solid red; */
 }
+
+
+
+/* .....................Curriculam section............. */
+.curriculum-section{
+    width: 86%;
+    margin: 0 auto;
+   background-image: url(./assets/bg.png);
+}
+.curriculum-heading{
+    margin-top: 60px;
+    border: 1px solid red;
+    text-align: center;
+}
+
+.curriculum-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.arrow-curr{
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem; */
+    text-align: center;
+}
+
+
+
+/* ..................our stories................. */
+
+.our-stories-section {
+    background: url(./assets/bg.png), linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 50px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.our-stories h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.flx-grid-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Combined styles flx grd */
+.our-stories-flx,
+.our-stories-grid > div {
+    background: white;
+    border-radius: 20px;
+    padding: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.our-stories-flx img,
+.our-stories-grid img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+    display: block;
+    height: auto;
+}
+
+/* Txt cntnt padding */
+.our-stories-flx .our-stories-date1,
+.our-stories-flx .our-stories-heading,
+.our-stories-flx .our-stories-para,
+.our-stories-grid .our-stories-date2,
+.our-stories-grid .our-stories-date3,
+.our-stories-grid .our-stories-date4,
+.our-stories-grid .our-stories-date5,
+.our-stories-grid .our-stories-heading2,
+.our-stories-grid .our-stories-heading3,
+.our-stories-grid .our-stories-heading4,
+.our-stories-grid .our-stories-heading5 {
+    padding: 0 20px;
+}
+
+/* Common dt styles */
+.our-stories-date1,
+.our-stories-date2,
+.our-stories-date3,
+.our-stories-date4,
+.our-stories-date5 {
+    display: inline-block;
+    padding: 10px 15px !important;
+    border-radius: 20px;
+    color: white;
+    margin: 10px 0;
+}
+.our-stories-date1{
+    position: relative;
+    top: -45px;
+    left: 30px;
+}
+.our-stories-date2,
+.our-stories-date3,
+.our-stories-date4,
+.our-stories-date5 {
+    position: relative;
+    top: -30px;
+    left: 10px;
+}
+/* Date bg colors */
+.our-stories-date1 { background: #00D2D8; }
+.our-stories-date2 { background: #7B61FF; }
+.our-stories-date3 { background: #4B4DED; }
+.our-stories-date4 { background: #68A2DF; }
+.our-stories-date5 { background: #FEA301; }
+
+.our-stories-heading {
+    padding-bottom: 30px !important;
+}
+.our-stories-heading2,
+.our-stories-heading3,
+.our-stories-heading4,
+.our-stories-heading5 {
+    position: relative;
+    top: -15px;
+    padding: 0 20px;
+    margin-bottom: 15px;
+}
+.our-stories-para {
+    color: #666;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.our-stories-grid {
+    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.our-stories-heading2,
+.our-stories-heading3,
+.our-stories-heading4,
+.our-stories-heading5 {
+    font-size: 1.1rem;
+    margin-top: 10px;
+}
+
+.our-stories-btn {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.our-stories-btn .black-btn {
+    transition: all 0.3s ease;
+}
+
+.our-stories-btn .black-btn:hover {
+    background: #333;
+    transform: translateY(-2px);
+}
+
+
+
+/* 
+..........................start */
+
+
+.our-stories-flx {
+    flex: 1;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-stories-flx img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+}
+
+.our-stories-flx .our-stories-date1,
+.our-stories-flx .our-stories-heading,
+.our-stories-flx .our-stories-para {
+    padding: 0 20px; 
+}
+
+.our-stories-grid > div {
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.our-stories-grid img {
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+    margin-bottom: 15px;
+}
+
+.our-stories-grid .our-stories-date2,
+.our-stories-grid .our-stories-date3,
+.our-stories-grid .our-stories-date4,
+.our-stories-grid .our-stories-date5,
+.our-stories-grid .our-stories-heading2,
+.our-stories-grid .our-stories-heading3,
+.our-stories-grid .our-stories-heading4,
+.our-stories-grid .our-stories-heading5 {
+    padding: 0 15px;
+}
+
+/* ... footer sec... */
